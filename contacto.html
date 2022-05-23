@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Arte Suave</title>
+    <link rel="icon" href="./Images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3f3f4a4fbb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="barra-nav">
+            <div class="logo">
+                <img src="./Images/favicon-32x32.png" alt="">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="boton">Home</a></li>
+                    <li><a href="contacto.html" class="actual">Contacto</a></li>
+                    <li><a href="info.html" class="boton">Info</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="heroe"></section>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <h2>Contactanos</h2>
+            <div id="mensaje_error"></div>
+            <form id="myform" onsubmit="return validacion();">
+              <div class="entrada">
+                  <input type="text" placeholder="Nombre" id="nombre">
+              </div>
+    
+              <div class="entrada">
+                  <input type="text" placeholder="Apellido" id="apellido">
+              </div>
+              
+              <div class="entrada">
+                  <input type="text" placeholder="Celular" id="celular">
+              </div>
+    
+              <div class="entrada">
+                  <input type="text" placeholder="Email" id="email">
+              </div>
+    
+              <div class="entrada">
+                  <textarea placeholder="Mensaje" id="mensaje"></textarea>
+              </div>
+    
+              <div class="boton">
+                  <input type="submit">
+              </div>
+            </form>
+        </div>
+
+        <div class="galeria">
+            <img src="./Images/g1.png" alt="">
+            <img src="./Images/g6.png" alt="">
+            <img src="./Images/g3.png" alt="">
+            <img src="./Images/g4.png" alt="">
+        </div>
+    </main>
+
+    <footer>
+        <nav class="social">
+            <ul>
+                <li><i class="fa-brands fa-facebook fa-2xl"></i></li>
+                <li><i class="fa-brands fa-instagram fa-2xl"></i></li>
+                <li><i class="fa-brands fa-twitter fa-2xl"></i></li>
+                <li><i class="fa-brands fa-pinterest fa-2xl"></i></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <nav class="footer-menu">
+                <ul>
+                    <p class="derechos">Derechos Reservados 2022</p>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="contacto.js"></script>
+</body>
+</html>
