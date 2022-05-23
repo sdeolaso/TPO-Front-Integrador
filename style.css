@@ -36,7 +36,7 @@ header {
 .barra-nav { 
     display: flex;
     justify-content: space-between;
-    padding: 3em;
+    padding: 5vh 5vw 5vh 5vw;
 }
 
 nav ul li {
@@ -304,6 +304,7 @@ footer {
 @media only screen and (max-width: 950px) {
     .barra-nav {
         padding-bottom: 0;
+        padding-top: 2.5vh;
     }
 
     .barra-nav ul li{
